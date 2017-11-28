@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "605777809863",
+    "firebase_url": "https://goliauth.firebaseio.com",
+    "project_id": "goliauth",
+    "storage_bucket": "goliauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605777809863:android:9985f78388ac0d84",
+        "android_client_info": {
+          "package_name": "iogoliauth.github.shadabk92.goliauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605777809863-omsq9njfg7jbmnrkq62o37gsj4kt96j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iogoliauth.github.shadabk92.goliauth",
+            "certificate_hash": "c7e711cce9e903ae59b59cf1173f2f1b77a53c3b"
+          }
+        },
+        {
+          "client_id": "605777809863-88v2o5tf7qungbgvahopb45d8doqfats.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5NvJ28vM9mjEbeWef_Diin-RxHc7hbnI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605777809863-88v2o5tf7qungbgvahopb45d8doqfats.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
