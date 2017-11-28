@@ -6,13 +6,59 @@
     android:layout_height="match_parent"
     tools:context="iogoliauth.github.shadabk92.goliauth.GoliAuthActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Google+ Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="34dp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Github Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook Accountkit Login"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook OTP Login"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google+ Email Login"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firebase OTP Login"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="446dp" />
 </android.support.constraint.ConstraintLayout>
