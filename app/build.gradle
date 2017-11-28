@@ -5,7 +5,7 @@ android {
     defaultConfig {
         applicationId "iogoliauth.github.shadabk92.goliauth"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -16,11 +16,15 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:appcompat-v7:27.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
 
     testImplementation 'junit:junit:4.12'
@@ -29,6 +33,10 @@ dependencies {
 
     //Facebook Accountkit Auth
     implementation 'com.facebook.android:facebook-login:[4,5)'
+
+    //AccountKit
+    compile 'com.facebook.android:account-kit-sdk:4.+'
+
 
     //Firebase Auth
     implementation 'com.google.firebase:firebase-auth:11.0.4'
@@ -43,6 +51,10 @@ dependencies {
 
 
 }
+
+
+
+
 
 
 

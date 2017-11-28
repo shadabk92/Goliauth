@@ -6,21 +6,22 @@
     android:layout_height="match_parent"
     tools:context="iogoliauth.github.shadabk92.goliauth.GoliAuthActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btngplus"
+        android:layout_width="119dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:text="Google+ Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.063"
+        android:layout_marginRight="8dp" />
 
-    <Button
-        android:id="@+id/button3"
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnfb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Facebook Login"
@@ -28,10 +29,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.203" />
+        app:layout_constraintVertical_bias="0.416" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/bgngithub"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Github Login"
@@ -40,50 +41,55 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.336" />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnfbacountkit"
+        android:layout_width="174dp"
         android:layout_height="wrap_content"
-        android:text="Facebook Accountkit Login"
+        android:text="FB AKit Email"
+        android:onClick="onEmailLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.624" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnackitotp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Facebook OTP Login"
+        android:onClick="onPhoneLogin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.626" />
+        app:layout_constraintVertical_bias="0.624" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnfirebaseemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Google+ Email Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.835" />
 
     <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
+        android:id="@+id/btnfirebaseotp"
+        android:layout_width="166dp"
         android:layout_height="wrap_content"
         android:text="Firebase OTP Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.835" />
 </android.support.constraint.ConstraintLayout>
