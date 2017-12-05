@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GooglePlusLogin" />
+        <activity android:name=".FacebookLogin" />
+        <activity android:name=".GithubLogin" />
+        <activity android:name=".AccountKitLogin"></activity>
     </application>
 
 </manifest>
